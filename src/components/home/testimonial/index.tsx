@@ -34,13 +34,12 @@ const Testimonials: React.FC = () => {
 
   const [currentIndex, setCurrentIndex] = useState(0);
 
-  // Autoplay every 3 seconds
   useEffect(() => {
     const interval = setInterval(() => {
       nextSlide();
     }, 3000);
 
-    return () => clearInterval(interval); // Clear interval on component unmount
+    return () => clearInterval(interval); 
   }, [currentIndex]);
 
   const nextSlide = () => {
@@ -95,9 +94,6 @@ const Testimonials: React.FC = () => {
                             </div>
                           </div>
                       </div>
-
-                      
-                      
               </div>
             ))}
           </div>

@@ -16,13 +16,13 @@
   }
   
   .card {
-    flex: 0 0 30%; /* Base width for side cards */
+    flex: 0 0 30%; 
     margin: 0 10px;
     background-color: #f0f0f0;
     padding: 20px;
     border-radius: 10px;
     transition: transform 0.3s ease, height 0.3s ease, flex 0.3s ease;
-    height: 300px; /* Default height for side cards */
+    height: 300px; 
   }
   
   .card.active {
