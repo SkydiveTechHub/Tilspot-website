@@ -55,7 +55,7 @@ export default Blog
 
 const BlogCard=({imgUrl, title, desc, date, author, authorImg}:BlogCardProps)=>{
     return(
-        <div>
+        <div data-aos="fade-up">
             <img className='w-full h-[220px]' src={imgUrl} alt="Card image" />
             <div className='h-[210px] relative'>
                 <div className='flex gap-3 items-center py-3'>

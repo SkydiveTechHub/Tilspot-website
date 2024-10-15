@@ -48,7 +48,7 @@ const Connect = () => {
                 <div data-aos="fade-right" className='flex-1 '>
                     <TitleText style='text-center md:text-left md:text-[28px] text-left lg:w-[80%]' text='We connect our customers with the best, and help them keep up-and stay open.'/>
                     
-                        <ul className='lg:w-[75%] space-y-3 mt-6 lg:mt-0'>
+                        <ul className='lg:w-[75%] space-y-3 mt-6'>
                             <CntBox>
                                 <PiLeafLight/>
                                  <span>We connect our customers with the best.</span>

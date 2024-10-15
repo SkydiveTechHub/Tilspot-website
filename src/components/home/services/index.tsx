@@ -24,7 +24,7 @@ const Services: React.FC = () => {
                 <TitleText style='text-[18px] md:text-[32px] lg:w-[60%] text-center' text='Handshake infographic mass market crowdfunding iteration.'/>
             </div>
 
-            <div data-aos="fade-up">
+            <div>
                 <Swiper
                     spaceBetween={50}
                     slidesPerView={3}
@@ -84,7 +84,7 @@ export default Services
 
 const ServiceCard=({imgUrl, title, desc, linkUrl}:ServiceCardProps)=>{
     return(
-        <div className='space-y-2'>
+        <div data-aos="fade-up" className='space-y-2'>
             <img src={imgUrl} alt="Card image" />
             <div className='  pt-3'>
                 <TitleText style='text-[18px]' text={title}/>
