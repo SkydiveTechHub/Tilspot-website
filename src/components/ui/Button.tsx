@@ -1,8 +1,6 @@
-import React from 'react'
-
 interface ButtonProps{
     text:string;
-    variant: 'primary' | 'secondary' | 'tertiary' | 'green'
+    variant: 'primary' | 'secondary' | 'tertiary' | 'green' | 'white'
 }
 
 export const Button = ({text, variant}:ButtonProps) => {
@@ -31,6 +29,11 @@ const variantstyles={
         border: '2px solid #0A2640',
         color: '#0A2640',
         backgroundColor: 'transparent',
+    },
+    white:{
+        border: '2px solid #0A2640',
+        color: '#0A2640',
+        backgroundColor: 'white',
     },
     green:{
         border: '2px solid #69E6A6',

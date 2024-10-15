@@ -110,3 +110,18 @@ export const footerData = [
     ]
   },
 ]
+
+export const headerData = [
+  {
+    name:'Product',
+    url:''
+  },
+  {
+    name:'Service',
+    url:''
+  },
+  {
+    name:'About',
+    url:''
+  },
+]

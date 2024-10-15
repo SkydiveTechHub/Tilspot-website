@@ -4,14 +4,7 @@ import Container from '../../ui/Container';
 import { TitleText } from '../../ui/Typograph';
 import { FaArrowLeft } from "react-icons/fa6";
 import { FaArrowRight } from "react-icons/fa";
-import { Link } from 'react-router-dom';
 
-interface TestimonialCardProps{
-  imgUrl:string 
-  title:string 
-  desc:string 
-  linkUrl:string
-}
 
 const Testimonials: React.FC = () => {
   const slides = [
