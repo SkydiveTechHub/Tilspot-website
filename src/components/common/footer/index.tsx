@@ -5,7 +5,7 @@ import Container from '../../ui/Container'
 
 const Footer = () => {
   return (
-    <div>
+    <div data-aos="fade-up">
       <Container>
         <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 py-8'>
             <div className='spacey-y-4'>

@@ -24,6 +24,7 @@ const Services: React.FC = () => {
                 <TitleText style='text-[18px] md:text-[32px] lg:w-[60%] text-center' text='Handshake infographic mass market crowdfunding iteration.'/>
             </div>
 
+            <div data-aos="fade-up">
                 <Swiper
                     spaceBetween={50}
                     slidesPerView={3}
@@ -65,7 +66,10 @@ const Services: React.FC = () => {
 
                         ))
                     }
-                </Swiper>
+                </Swiper>                
+            </div>
+
+
 
   
         

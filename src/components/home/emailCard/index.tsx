@@ -5,7 +5,7 @@ import { TitleText } from '../../ui/Typograph'
 
 const EmailCard = () => {
   return (
-    <div className='lg:pt-[5rem] pb-[5rem]'>
+    <div data-aos="zoom-in" className='lg:pt-[5rem] pb-[5rem]'>
       <Container>
         <div className='w-full rounded-lg  bg-primary flex flex-col justify-between items-center py-12 space-y-8 relative z-[-1]'>
           <img src="/images/Ellipse.png" className='top-0 right-0 absolute z-[-1]' alt="" />
