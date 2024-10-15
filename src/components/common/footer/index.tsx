@@ -20,7 +20,7 @@ const Footer = () => {
                       {
                         i.children.map((item, ids)=>(
                           <li key={ids}>
-                            <Link className='text-[#777777]' to={item.linkUrl}>
+                            <Link className='text-[#777777] text-[16px]' to={item.linkUrl}>
                               {item.name}
                             </Link>
                           </li>
@@ -34,7 +34,7 @@ const Footer = () => {
                 
         </div>
         <div>
-
+          <p className='text-[#777777] text-[14px] mt-4'>All rights reserved.</p>
         </div>
       </Container>
 

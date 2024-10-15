@@ -1,3 +1,4 @@
+import { CntDrop } from '../../../utils/comps'
 import Container from '../../ui/Container'
 import { TitleText } from '../../ui/Typograph'
 
@@ -7,11 +8,15 @@ const Banner = () => {
         <Container>
             <img src="/images/banner.png" alt="banner" />
 
-            <div className='flex'>
-                <TitleText style=' flex-1 text-center md:text-left md:text-[28px] text-left md:w-[50%]' text='We connect our customers with the best, and help them keep up-and stay open.'/>
+            <div className='flex mt-8'>
+              <div className='flex-1'>
+                <TitleText style=' flex-1 text-center md:text-left md:text-[28px] text-left md:w-[85%]' text='We connect our customers with the best, and help them keep up-and stay open.'/>
+              </div>
+                
 
                 <div className='flex-1'>
-
+                  <CntDrop text='We connect our customers with the best?'/>
+                  <CntDrop text='Android research & development rockstar? '/>
                 </div>
             </div>
         </Container>

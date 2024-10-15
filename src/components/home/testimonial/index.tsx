@@ -13,29 +13,23 @@ const Testimonials: React.FC = () => {
       content: '“Buyer buzz partner network disruptive non-disclosure agreement business”' ,
       author:'Albus Dumbledore',
       authorImg:'/images/t1.png',
-      authorPost:'',
+      authorPost:'Manager @ Howarts',
     },
     { 
       id: 2, 
-      content: '“Buyer buzz partner network disruptive non-disclosure agreement business”' ,
-      author:'Albus Dumbledore',
+      content: '“Learning curve infrastructure value proposition advisor strategy user experience hypotheses investor.”' ,
+      author:'Severus Snape',
       authorImg:'/images/t2.png',
-      authorPost:'',
+      authorPost:'Manager @ Slytherin',
     },
     { 
       id: 3, 
-      content: '“Buyer buzz partner network disruptive non-disclosure agreement business”' ,
-      author:'Albus Dumbledore',
+      content: '“Release facebook responsive web design business model canvas seed money monetization.”' ,
+      author:'Harry Potter',
       authorImg:'/images/t3.png',
-      authorPost:'',
+      authorPost:'Team Leader @ Gryffindor',
     },
-    { 
-      id: 4, 
-      content: '“Buyer buzz partner network disruptive non-disclosure agreement business”' ,
-      author:'Albus Dumbledore',
-      authorImg:'/images/t1.png',
-      authorPost:'',
-    },
+
   ];
 
   const [currentIndex, setCurrentIndex] = useState(0);
@@ -96,8 +90,8 @@ const Testimonials: React.FC = () => {
                           <div className='flex items-center gap-3 pt-6'>
                             <img src={slide.authorImg} alt="img" />
                             <div  className='w-full'>
-                              <p className='text-[14px] w-[70%]'>{slide.author}</p>
-                              <p className='text-[13px] w-[70%] text-gray'>{slide.authorPost}</p>
+                              <p className='text-[16px] w-[70%]'>{slide.author}</p>
+                              <p className='text-[13px] w-[70%] text-[#777777]'>{slide.authorPost}</p>
                             </div>
                           </div>
                       </div>
