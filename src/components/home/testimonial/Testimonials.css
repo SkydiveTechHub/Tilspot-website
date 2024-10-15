@@ -1,0 +1,49 @@
+
+.carousel-container {
+    position: relative;
+    width: 100%;
+    max-width: 1200px;
+    margin: auto;
+    overflow: hidden;
+  }
+  
+  .carousel {
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    gap:40px;
+    /* height: 400px;  */
+  }
+  
+  .card {
+    flex: 0 0 30%; /* Base width for side cards */
+    margin: 0 10px;
+    background-color: #f0f0f0;
+    padding: 20px;
+    border-radius: 10px;
+    transition: transform 0.3s ease, height 0.3s ease, flex 0.3s ease;
+    height: 300px; /* Default height for side cards */
+  }
+  
+  .card.active {
+    height: 320px; 
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  }
+  
+  .card.hidden {
+    display: none;
+  }
+  
+  
+  /* Responsive design */
+  @media (max-width: 768px) {
+    .card {
+      flex: 0 0 90%; 
+      margin: 0;
+    }
+  
+    .card.active {
+      flex: 0 0 100%; 
+    }
+  }
+  
