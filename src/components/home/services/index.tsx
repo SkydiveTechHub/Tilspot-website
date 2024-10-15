@@ -21,7 +21,7 @@ const Services: React.FC = () => {
         <Container>
             <div className='flex flex-col justify-between items-center w-full mb-[4rem]'>
                 <TagText text='Our Services'/>
-                <TitleText style='text-[18px] md:text-[32px] md:w-[60%] text-center' text='Handshake infographic mass market crowdfunding iteration.'/>
+                <TitleText style='text-[18px] md:text-[32px] lg:w-[60%] text-center' text='Handshake infographic mass market crowdfunding iteration.'/>
             </div>
 
                 <Swiper

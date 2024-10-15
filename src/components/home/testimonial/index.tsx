@@ -66,7 +66,7 @@ const Testimonials: React.FC = () => {
       <Container>
 
         <div className='flex mb-10 flex-col md:flex-row'>
-          <TitleText style='text-white text-center md:text-left flex-1 text-[38px]' text='An enterprise template to ramp up your company website'/>
+          <TitleText style='text-white text-center md:text-left flex-1 text-[28px] md:text-[38px]' text='An enterprise template to ramp up your company website'/>
           <div className='flex-1 flex justify-center md:justify-between items-end py-8'>
             <div className='hidden md:block'>
 

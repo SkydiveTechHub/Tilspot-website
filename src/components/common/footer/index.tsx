@@ -7,7 +7,7 @@ const Footer = () => {
   return (
     <div>
       <Container>
-        <div className='grid grid-cols-1 md:grid-cols-4 gap-6 py-8'>
+        <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 py-8'>
             <div className='spacey-y-4'>
                 <img src="/images/Logo-dark.png" alt="" />
                 <p className='text-[#777777] text-[14px] mt-4'>Social media validation business model canvas graphical user interface launch party creative facebook iPad twitter.</p>

@@ -18,7 +18,7 @@ const NavBar = () => {
         <div><img className='w-[100px] md:w-[150px]' src="/images/Logo.png" alt="Logo" /></div>
 
         {/* navlinks */}
-        <div className='hidden md:flex items-center gap-8'>
+        <div className='hidden lg:flex items-center gap-8'>
           <ul className='flex items-center gap-8'>
             {
               headerData.map((i, id)=>(
@@ -33,12 +33,12 @@ const NavBar = () => {
           <Link to={'/'}><Button variant='white' text='Login'/></Link>
         </div>
 
-        <div className='md:hidden  w-[80%]'>
+        <div className='lg:hidden  w-[80%] '>
           <div className='float-right'>
             <button onClick={()=>setShow(true)}><IoMenu color='white' size={25}/></button>
           </div>
 
-          <div className={`flex flex-col items-center absolute top-0 right-0 gap-8 w-[80%] pt-[1rem] ${!show?'translate-x-[600px]': 'translate-x-0'} duration-500 transition-all  bg-primary h-screen`}>
+          <div className={` flex-col items-center absolute top-0 right-0 gap-8 w-[80%] pt-[1rem] ${!show?'translate-x-[600px] hidden': 'translate-x-0 flex'} duration-500 transition-all  bg-primary h-screen`}>
           <div className='w-full flex justify-end pr-6'>
             <button onClick={()=>setShow(false)}><FaTimes color='white' size={25}/></button>
           </div>

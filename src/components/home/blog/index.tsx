@@ -20,10 +20,10 @@ const Blog = () => {
         <Container>
             <div className='flex flex-col justify-between items-center w-full'>
                 <TagText text='Our Blogs'/>
-                <TitleText style='text-[18px] md:text-[32px] md:w-[60%] text-center' text='Value proposition accelerator product management venture'/>
+                <TitleText style='text-[18px] md:text-[32px] lg:w-[60%] text-center' text='Value proposition accelerator product management venture'/>
             </div>
 
-            <div className='grid grid-cols-1 md:grid-cols-3 gap-6 py-[4rem]'>
+            <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 py-[4rem]'>
                 {
                     blogdata.map((item, i)=>(
                         <BlogCard
