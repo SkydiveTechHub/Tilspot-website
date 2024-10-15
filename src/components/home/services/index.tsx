@@ -5,10 +5,7 @@ import Container from '../../ui/Container'
 import { TagText, TitleText } from '../../ui/Typograph'
 import { Swiper, SwiperSlide } from 'swiper/react';
 import 'swiper/css';
-import 'swiper/css/autoplay'; // Autoplay styles (optional)
-
-// Import Swiper core and required modules
-import { Navigation, Pagination, Autoplay } from 'swiper/modules';
+import 'swiper/css/autoplay'; 
 import { FaArrowRight } from 'react-icons/fa'
 
 interface ServiceCardProps{
@@ -27,7 +24,6 @@ const Services: React.FC = () => {
                 <TitleText style='text-[18px] md:text-[32px] md:w-[60%] text-center' text='Handshake infographic mass market crowdfunding iteration.'/>
             </div>
 
-            {/* <div className='grid grid-cols-3'> */}
                 <Swiper
                     spaceBetween={50}
                     slidesPerView={3}
@@ -72,8 +68,6 @@ const Services: React.FC = () => {
                 </Swiper>
 
   
-
-            {/* </div> */}
         
         </Container>        
     </div>
