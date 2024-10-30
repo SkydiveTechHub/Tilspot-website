@@ -1,11 +1,14 @@
-import { useEffect } from 'react'
+import { lazy, Suspense, useEffect } from 'react'
 import './App.css'
-import Home from './pages/home'
+// import Home from './pages/home'
 import AOS from 'aos';
 import { Route, Routes } from 'react-router-dom';
-import AboutPage from './pages/about';
-import ContactPage from './pages/contact';
-import ServicePage from './pages/services';
+import Loading from './components/common/Loading';
+// Lazy load the pages
+const Home = lazy(() => import('./pages/home'));
+const AboutPage = lazy(() => import('./pages/about'));
+const ContactPage = lazy(() => import('./pages/contact'));
+const ServicePage = lazy(() => import('./pages/services'));
 
 function App() {
   useEffect(() => {
@@ -17,12 +20,15 @@ function App() {
 
   return (
     <>
-    <Routes>
-      <Route path='/' element={<Home/>}/>
-      <Route path='/about' element={<AboutPage/>}/>
-      <Route path='/contact' element={<ContactPage/>}/>
-      <Route path='/services' element={<ServicePage/>}/>
-    </Routes>
+    <Suspense fallback={<Loading />}>
+          <Routes>
+            <Route path='/' element={<Home/>}/>
+            <Route path='/about' element={<AboutPage/>}/>
+            <Route path='/contact' element={<ContactPage/>}/>
+            <Route path='/services' element={<ServicePage/>}/>
+          </Routes>
+    </Suspense>
+
     </>
   )
 }

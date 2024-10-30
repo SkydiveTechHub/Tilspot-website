@@ -6,7 +6,7 @@ const Hero = () => {
 
   return (
     <div className='w-full relative bg-white z-[-1] pb-8 md:pb-0 mt-[-2rem]'>
-      <img className='hidden lg:block absolute right-0 top-0 z-[-1]' src="/images/hero-ellipse.png" alt="" />
+      <img data-aos="slide-left" className='hidden lg:block absolute right-0 top-0 z-[-1]' src="/images/hero-ellipse.png" alt="" />
       <Container>
         <div  className='flex flex-col lg:flex-row items-center justify-between gap-8 pt-[6rem] lg:pt-0'>
           <div data-aos="fade-right" className='flex-1 space-y-8'>
