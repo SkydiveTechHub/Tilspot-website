@@ -1,5 +1,3 @@
-import React from "react";
-// import { Heading } from "../../shared/Typography";
 import { Link } from "react-router-dom";
 import { reasonData } from "../../utils/data";
 import Container from "../ui/Container";

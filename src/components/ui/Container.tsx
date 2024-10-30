@@ -19,7 +19,7 @@ const Container = ({children}:ContainerProps) => {
 export default Container
 
 
-export const FlexContainer = ({ contentLeft, contentRight, flexDirection, direction }:ContainerProps) => {
+export const FlexContainer = ({ contentLeft, contentRight, direction }:ContainerProps) => {
 	return (
 		<div className={`flex ${direction} gap-2  justify-between `}>
 			<>{contentLeft}</>

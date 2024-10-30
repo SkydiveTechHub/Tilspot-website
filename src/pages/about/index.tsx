@@ -1,10 +1,9 @@
 import MainLayout from '../../layout/MainLayout'
 import About from '../../components/about/about'
-import Features from '../../components/about/features'
 import PageBanner from '../../components/common/PageBanner'
 import Partners from '../../components/home/partner'
 import Services from '../../components/home/services'
-import { TagText, TitleText } from '../../components/ui/Typograph'
+import {  TitleText } from '../../components/ui/Typograph'
 import Why from '../../components/about/why'
 
 const AboutPage = () => {

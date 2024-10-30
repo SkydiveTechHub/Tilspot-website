@@ -1,4 +1,4 @@
-import React from "react";
+
 import Container, { FlexContainer } from "../ui/Container";
 import { feature } from "../../utils/data";
 

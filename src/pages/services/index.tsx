@@ -1,11 +1,5 @@
-import Hero from '../../components/home/hero'
 import MainLayout from '../../layout/MainLayout'
 import Services from '../../components/home/services'
-import EmailCard from '../../components/home/emailCard'
-import Connect from '../../components/home/connect'
-import Blog from '../../components/home/blog'
-import Banner from '../../components/home/banner'
-import Testimonials from '../../components/home/testimonial'
 import { TitleText } from '../../components/ui/Typograph'
 import PageBanner from '../../components/common/PageBanner'
 

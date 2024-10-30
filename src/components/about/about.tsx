@@ -1,4 +1,4 @@
-import React from "react";
+
 import { Button } from "../ui/Button";
 import { CntItem } from "../../utils/comps";
 import { TitleText } from "../ui/Typograph";
