@@ -66,7 +66,7 @@ const Testimonials: React.FC = () => {
       <Container>
 
         <div className='flex mb-10 flex-col md:flex-row'>
-          <div>
+          <div className='flex flex-col items-center lg:items-start justify-center'>
             <TagText text='Our Testimonials'/>
             <TitleText style='text-white text-center md:text-left flex-1 text-[28px] md:text-[38px]' text='What Our Customers Say About Us'/>            
           </div>

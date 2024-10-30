@@ -119,7 +119,7 @@ export default Services
 
 const ServiceCard=({imgUrl, desc}:ServiceCardProps)=>{
     return(
-        <div data-aos="fade-up" className='space-y-2 flex flex-col justify-center text-[#777777] items-center shadow-md rounded-lg p-3 transition-all duration-500 hover:bg-secondary hover:text-white'>
+        <div data-aos="fade-up" style={{transition: 'all .5s ease-in-out'}} className='space-y-2 flex flex-col justify-center text-[#777777] items-center shadow-md rounded-lg p-3 transition-all duration-500 hover:bg-secondary hover:text-white'>
             <img src={imgUrl} alt="Card image" />
             <div className='  pt-3'>
                 {/* <TitleText style='text-[18px] text-center' text={title}/> */}

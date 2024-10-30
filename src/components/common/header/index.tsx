@@ -15,6 +15,7 @@ const NavBar = () => {
 
   useEffect(()=>{
     if((navigator.pathname) === '/' ){
+      console.log(navigator.pathname)
       setIsHome(true)
     }else{
       setIsHome(false)
@@ -33,7 +34,7 @@ const NavBar = () => {
               {
                 headerData.map((i, id)=>(
                   <li key={id}>
-                    <Link style={{color: isHome?'#002B6F':'white', transition: 'all ease-in .3s'}} className={`text-[15px] text-[white]  hover:border-b-2 rounded-md px-2  border-secondary hover:font-bold ${navigator.pathname === `/${i.name}` ? ' border-secondary':null}`}  to={i.url}>{i.name}</Link>
+                    <Link style={{color: isHome?'#002B6F':'white', transition: 'all ease-in .3s'}} className={`text-[15px] text-[white]  hover:border-b-2 rounded-md px-2  border-secondary hover:font-bold ${navigator.pathname === `${i.url}` ? 'border-b-2':null}`}  to={i.url}>{i.name}</Link>
                   </li>
                 ))
               }

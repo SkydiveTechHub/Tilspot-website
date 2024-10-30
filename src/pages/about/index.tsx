@@ -20,13 +20,13 @@ const AboutPage = () => {
           <Partners/>
         </div>
 
-        <div className='mt-12'>
+        <div className='mt-12 mb-20'>
           <TitleText style='text-primary text-center font-bold text-[28px]' text='What We Do'/>
           <Services show={true} count={4}/>
         </div>
-        <Why/>
-        
-        
+        <div className='mt-[-10rem]' >
+          <Why/>
+        </div>  
       </MainLayout>
       
     </div>
