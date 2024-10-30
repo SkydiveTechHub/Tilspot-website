@@ -47,15 +47,15 @@ const NavBar = () => {
               <button onClick={()=>setShow(true)}><IoMenu color={isHome?'#002b6f':'white'} size={25}/></button>
             </div>
 
-            <div className={` flex-col items-center absolute top-0 right-0 gap-8 w-[80%] pt-[1rem] ${!show?'translate-x-[600px] hidden': 'translate-x-0 flex'} duration-500 transition-all  bg-primary h-screen`}>
+            <div style={{transition:'all .5s ease-in-out'}} className={` flex-col items-center absolute top-0 right-0 gap-8 w-[80%] pt-[1rem] ${!show?'translate-x-[600px] hidden': 'translate-x-0 flex'} duration-500 transition-all  bg-primary rounded-bl-[5rem] h-screen`}>
             <div className='w-full flex justify-end pr-6'>
               <button onClick={()=>setShow(false)}><FaTimes color='white' size={25}/></button>
             </div>
-              <ul className='flex flex-col items-center gap-8'>
+              <ul className='flex flex-col items-center gap-8 w-full px-8'>
                 {
                   headerData.map((i, id)=>(
-                    <li onClick={()=>setShow(false)} className='w-full' key={id}>
-                      <Link className='text-[15px] text-white hover:font-bold ' to={i.url}>{i.name}</Link>
+                    <li onClick={()=>setShow(false)} className={`w-full text-center text-[16px] py-1 ${navigator.pathname === `${i.url}` ? 'bg-white w-full rounded-md text-primary':'text-white'}`} key={id}>
+                      <Link className={` text-[15px] hover:font-bold `} to={i.url}>{i.name}</Link>
                     </li>
                   ))
                 }
