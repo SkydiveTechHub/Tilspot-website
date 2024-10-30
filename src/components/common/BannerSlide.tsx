@@ -12,7 +12,7 @@ const BannerSlide : React.FC<BannerProps> = ({imgUrl, classname, direction}) => 
         <div className="mt-8">
         <Marquee
           gradient={true}
-          gradientColor={'#0A2640'}
+          gradientColor={''}
           direction= {direction}
           // speed={speed}
         >

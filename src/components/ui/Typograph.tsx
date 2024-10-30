@@ -5,7 +5,7 @@ interface TypoProps{
 
 export const TagText =({text}:TypoProps)=>{
     return(
-        <p className="text-[#777777] text-[14px]">{text}</p>
+        <p className="text-secondary text-[14px]">{text}</p>
     )
 }
 

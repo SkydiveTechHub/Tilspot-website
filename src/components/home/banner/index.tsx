@@ -6,11 +6,12 @@ const Banner = () => {
   return (
     <div className='lg:mt-[10rem] py-[5rem] md:px-[4.3rem]'>
         <Container>
-            <img src="/images/banner.png" alt="banner" />
+            <img data-aos="fade-up" src="/images/banner.png" alt="banner" />
 
-            <div className='flex flex-col lg:flex-row mt-8'>
+            <div data-aos="swipe-up" className='flex flex-col lg:flex-row mt-8'>
               <div className='flex-1'>
-                <TitleText style=' flex-1 text-center md:text-left md:text-[28px] text-left lg:w-[85%]' text='We connect our customers with the best, and help them keep up-and stay open.'/>
+                <TitleText style=' flex-1 text-center md:text-left md:text-[28px] text-left lg:w-[85%]' text='WHY OUR CUSTOMERS CHOOSE'/>
+                <TitleText style=' flex-1 text-center md:text-left md:text-[28px] text-left lg:w-[85%]' text='TILSPOT'/>
               </div>
                 
 

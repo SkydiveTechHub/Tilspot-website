@@ -1,13 +1,13 @@
 interface ButtonProps{
     text:string;
-    variant: 'primary' | 'secondary' | 'tertiary' | 'green' | 'white'
+    variant: 'primary' | 'secondary' | 'tertiary' | 'outline' | 'white'
 }
 
 export const Button = ({text, variant}:ButtonProps) => {
   return (
     <button 
         style={variantstyles[variant]}
-        className='px-10 py-2 rounded-3xl text-[] font-bold'>
+        className='px-10 py-2 rounded-3xl text-[] font-bold shadow-md'>
       {text}
     </button>
   )
@@ -18,7 +18,7 @@ const variantstyles={
     primary:{
         border: '2px solid #ffffff',
         color: '#FFFFFF',
-        backgroundColor: '#0A2640',
+        backgroundColor: '#E00A0A',
     },
     secondary:{
         border: 'none',
@@ -35,9 +35,9 @@ const variantstyles={
         color: '#0A2640',
         backgroundColor: 'white',
     },
-    green:{
-        border: '2px solid #69E6A6',
-        color: '#0A2640',
-        backgroundColor: '#65E4A3',
+    outline:{
+        border: '2px solid #E00A0A',
+        color: '#E00A0A',
+        backgroundColor: 'transparent',
     },
 }

@@ -6,17 +6,21 @@ import Connect from '../../components/home/connect'
 import Blog from '../../components/home/blog'
 import Banner from '../../components/home/banner'
 import Testimonials from '../../components/home/testimonial'
+import Partners from '../../components/home/partner'
+import Why from '../../components/about/why'
 
 const Home = () => {
   return (
     <div>
       <MainLayout>
         <Hero/>
-        <Services/>
+        <Partners/>
+        <Services count={8} show={true} headerShow/>
         <Connect/>
-        <Banner/>
+        {/* <Banner/> */}
+        <Why/>
         <Testimonials/>
-        <Blog/>
+        {/* <Blog/> */}
         <EmailCard/>
       </MainLayout>
       

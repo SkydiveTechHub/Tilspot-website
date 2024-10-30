@@ -1,21 +1,31 @@
 
-import { Link } from 'react-router-dom'
+import { Link, useLocation, } from 'react-router-dom'
 import Container from '../../ui/Container'
 import { Button } from '../../ui/Button'
 import { headerData } from '../../../utils/data'
-import { useState } from 'react'
+import { useEffect, useState } from 'react'
 import { IoMenu } from "react-icons/io5";
 import { FaTimes } from "react-icons/fa";
 
+
 const NavBar = () => {
   const [show, setShow] = useState(false)
+  const [isHome, setIsHome] = useState(false)
+  const navigator = useLocation()
+
+  useEffect(()=>{
+    if((navigator.pathname) === '/' ){
+      setIsHome(true)
+    }else{
+      setIsHome(false)
+    }
+  },[])
   return (
-    <div data-aos="flip-down">
+    <div style={{backgroundColor: isHome?'white':'#002B6F'}} data-aos="flip-down" className='rounded-b-[40px] shadow-lg sticky z-[1000] top-0 left-0 w-full'>
       <Container>
-        <div className='flex absolute z-[1000] top-0 left-0 w-full justify-between items-center py-4 px-[2rem] md:px-[4rem]'>
-            
+        <div className='flex  w-full justify-between items-center py-4 '>            
             {/* logo */}
-          <div><img className='w-[100px] md:w-[150px]' src="/images/Logo.png" alt="Logo" /></div>
+            <Link to={'/'}><img className='bg-white rounded-lg p-2 w-[100px] md:w-[150px]' src="/images/Logo.png" alt="Logo" /></Link>
 
           {/* navlinks */}
           <div className='hidden lg:flex items-center gap-8'>
@@ -23,19 +33,17 @@ const NavBar = () => {
               {
                 headerData.map((i, id)=>(
                   <li key={id}>
-                    <Link className='text-[15px] text-white hover:font-bold ' to={i.url}>{i.name}</Link>
+                    <Link style={{color: isHome?'#002B6F':'white', transition: 'all ease-in .3s'}} className={`text-[15px] text-[white]  hover:border-b-2 rounded-md px-2  border-secondary hover:font-bold ${navigator.pathname === `/${i.name}` ? ' border-secondary':null}`}  to={i.url}>{i.name}</Link>
                   </li>
                 ))
               }
                 
             </ul>
-
-            <Link to={'/'}><Button variant='white' text='Login'/></Link>
           </div>
 
           <div className='lg:hidden  w-[80%] '>
             <div className='float-right'>
-              <button onClick={()=>setShow(true)}><IoMenu color='white' size={25}/></button>
+              <button onClick={()=>setShow(true)}><IoMenu color={isHome?'#002b6f':'white'} size={25}/></button>
             </div>
 
             <div className={` flex-col items-center absolute top-0 right-0 gap-8 w-[80%] pt-[1rem] ${!show?'translate-x-[600px] hidden': 'translate-x-0 flex'} duration-500 transition-all  bg-primary h-screen`}>
@@ -52,11 +60,16 @@ const NavBar = () => {
                 }
                   
               </ul>
-
-              <Link to={'/'}><Button variant='white' text='Login'/></Link>
+              <Link className='lg:hidden' to={'/'}>
+                <Button variant={'outline'} text={'Download App'}/>                
+              </Link>
             </div>
             
           </div>
+
+          <Link className='hidden lg:block' to={'/'}>
+            <Button variant={'outline'} text={'Download App'}/>                
+          </Link>
         </div>
 
       </Container>

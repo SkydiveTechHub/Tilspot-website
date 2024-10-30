@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import './Testimonials.css';
 import Container from '../../ui/Container';
-import { TitleText } from '../../ui/Typograph';
+import { TagText, TitleText } from '../../ui/Typograph';
 import { FaArrowLeft } from "react-icons/fa6";
 import { FaArrowRight } from "react-icons/fa";
 
@@ -62,11 +62,15 @@ const Testimonials: React.FC = () => {
   };
 
   return (
-    <div className='bg-primary py-12'>
+    <div data-aos="fade-up" className='bg-primary py-12'>
       <Container>
 
         <div className='flex mb-10 flex-col md:flex-row'>
-          <TitleText style='text-white text-center md:text-left flex-1 text-[28px] md:text-[38px]' text='An enterprise template to ramp up your company website'/>
+          <div>
+            <TagText text='Our Testimonials'/>
+            <TitleText style='text-white text-center md:text-left flex-1 text-[28px] md:text-[38px]' text='What Our Customers Say About Us'/>            
+          </div>
+
           <div className='flex-1 flex justify-center md:justify-between items-end py-8'>
             <div className='hidden md:block'>
 
