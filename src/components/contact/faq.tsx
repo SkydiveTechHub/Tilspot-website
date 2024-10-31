@@ -30,20 +30,23 @@ const Faq = () => {
 						</div>
 					}
 					contentRight={
-						<div className="w-full lg:w-[40%] bg-[#BADDFB] rounded-[8px] p-6">
-							<h3 className="font-[600] text-primary text-[36px] leading-[43.57px]">Have any questions?</h3>
-							<p className="text-[#8F8F8F] font-[400] text-[16px] leading-[19.36px] mt-3">
-								Our support team is readily available to help out
-							</p>
-							<div className="flex flex-col gap-3 mt-8">
-								<InputLayout type="text" text="Name" />
-								<InputLayout type="tel" text="Phone Number" />
-								<TextArea text="Message" />
-								<button type="submit" className="bg-secondary rounded-[5px] py-3 mb-9 w-full mt-6 text-white">
-									Send message
-								</button>
-							</div>
+						<div className="w-full lg:w-[40%]">
+							<div className="w-full  bg-[#BADDFB] rounded-[8px] p-6">
+								<h3 className="font-[600] text-primary text-[36px] leading-[43.57px]">Have any questions?</h3>
+								<p className="text-[#8F8F8F] font-[400] text-[16px] leading-[19.36px] mt-3">
+									Our support team is readily available to help out
+								</p>
+								<div className="flex flex-col gap-3 mt-8">
+									<InputLayout type="text" text="Name" />
+									<InputLayout type="tel" text="Phone Number" />
+									<TextArea text="Message" />
+									<button type="submit" className="bg-secondary rounded-[5px] py-3 mb-9 w-full mt-6 text-white">
+										Send message
+									</button>
+								</div>
+							</div>						
 						</div>
+
 					}
 					direction={"flex-col lg:flex-row"}
 				/>

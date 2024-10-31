@@ -12,73 +12,73 @@ export const servicedata = [
     {
         imgUrl:'/images/s1.png',
         title:"Cool feature title",
-        desc:"Learning curve network effects return on investment.",
+        desc:"Instantly top up your mobile phone balance across multiple networks.",
         linkUrl:''
     },
     {
         imgUrl:'/images/s2.png',
         title:"Cool feature title",
-        desc:"Learning curve network effects return on investment.",
+        desc:"Keep connected by managing internet payments with ease.",
         linkUrl:''
     },
     {
         imgUrl:'/images/s3.png',
         title:"Cool feature title",
-        desc:"Learning curve network effects return on investment.",
+        desc:"Easily manage your electricity bills on Tilspot for uninterrupted service and peace of mind",
         linkUrl:''
     },
     {
         imgUrl:'/images/s4.png',
         title:"Cool feature title",
-        desc:"Learning curve network effects return on investment.",
+        desc:"Pay for parking with ease, avoiding the stress of ticket deadlines.",
         linkUrl:''
     },
     {
         imgUrl:'/images/s5.png',
-        title:"Cool feature title",
-        desc:"Learning curve network effects return on investment.",
+        title:"Waste",
+        desc:"Stay current with waste management fees to ensure seamless services.",
         linkUrl:''
     },
     {
         imgUrl:'/images/s6.png',
-        title:"Cool feature title",
-        desc:"Learning curve network effects return on investment.",
+        title:"TV",
+        desc:"Simplify your annual or monthly TV license renewal.",
         linkUrl:''
     },
     {
         imgUrl:'/images/s7.png',
         title:"Cool feature title",
-        desc:"Learning curve network effects return on investment.",
+        desc:"Buy tickets for events, movies, and sports directly through Tilspot.",
         linkUrl:''
     },
     {
         imgUrl:'/images/s8.png',
         title:"Cool feature title",
-        desc:"Learning curve network effects return on investment.",
+        desc:" Pay directly for services or products from popular stores.",
         linkUrl:''
     },
     {
         imgUrl:'/images/s9.png',
         title:"Cool feature title",
-        desc:"Learning curve network effects return on investment.",
+        desc:"Manage government fees, permits, and licenses in one place.",
         linkUrl:''
     },
     {
         imgUrl:'/images/s10.png',
         title:"Cool feature title",
-        desc:"Learning curve network effects return on investment.",
+        desc:"Make someone’s day with a payment gift, covering bills or essentials.",
         linkUrl:''
     },
     {
         imgUrl:'/images/s11.png',
         title:"Cool feature title",
-        desc:"Learning curve network effects return on investment.",
+        desc:"Access transport passes and reload for easy travel planning.",
         linkUrl:''
     },
     {
         imgUrl:'/images/s12.png',
         title:"Cool feature title",
-        desc:"Learning curve network effects return on investment.",
+        desc:"Stay on top of financial obligations, from loans to instalments.",
         linkUrl:''
     },
 ]
@@ -223,28 +223,60 @@ export const feature = [
 
 export const FaqItem = [
   {
-    title: "Lorem ipsum dolor sit, amet consectetur adipisicing elit.",
-    text: `Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum blanditiis eveniet necessitatibus modi delectus numquam, ipsum, cum natus corporis porro nam quisquam velit magni maiores quaerat impedit placeat quam quos.`,
+    title: "What is Tilspot, and how does it work?",
+    text: `Tilspot is an easy-to-use platform for managing essential payments. It allows users to pay for electricity, internet, mobile top-ups, waste, parking, and more from one secure place. Simply create an account, select a bill category, and follow the prompts to complete your payment.`,
   },
   {
-    title: "Lorem ipsum dolor sit, amet consectetur adipisicing elit.",
-    text: `Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum blanditiis eveniet necessitatibus modi delectus numquam, ipsum, cum natus corporis porro nam quisquam velit magni maiores quaerat impedit placeat quam quos.`,
+    title: "Is Tilspot safe for making payments?",
+    text: `Absolutely. Tilspot uses industry-standard encryption to secure all transactions, protecting your personal and financial information.`,
   },
   {
-    title: "Lorem ipsum dolor sit, amet consectetur adipisicing elit.",
-    text: `Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum blanditiis eveniet necessitatibus modi delectus numquam, ipsum, cum natus corporis porro nam quisquam velit magni maiores quaerat impedit placeat quam quos.`,
+    title: "What types of bills can I pay on Tilspot?",
+    text: `You can pay for various essential services, including electricity, internet, gas, mobile airtime, waste management, parking, TV licenses, and more. We’re continuously expanding our offerings to cover more categories.`,
   },
   {
-    title: "Lorem ipsum dolor sit, amet consectetur adipisicing elit.",
-    text: `Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum blanditiis eveniet necessitatibus modi delectus numquam, ipsum, cum natus corporis porro nam quisquam velit magni maiores quaerat impedit placeat quam quos.`,
+    title: "How do I set up an account with Tilspot?",
+    text: `Setting up an account is quick and simple. Visit our website, click "Sign Up," and fill in the required details. Once registered, you’ll have access to all of Tilspot’s features.`,
   },
   {
-    title: "Lorem ipsum dolor sit, amet consectetur adipisicing elit.",
-    text: `Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum blanditiis eveniet necessitatibus modi delectus numquam, ipsum, cum natus corporis porro nam quisquam velit magni maiores quaerat impedit placeat quam quos.`,
+    title: "Are there fees associated with Tilspot payments?",
+    text: `Yes, a small transaction fee applies to keep our services running smoothly. These fees vary by payment category and will be displayed transparently before you finalize any transaction.`,
   },
   {
-    title: "Lorem ipsum dolor sit, amet consectetur adipisicing elit.",
-    text: `Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum blanditiis eveniet necessitatibus modi delectus numquam, ipsum, cum natus corporis porro nam quisquam velit magni maiores quaerat impedit placeat quam quos.`,
+    title: "Can I schedule recurring payments on Tilspot?",
+    text: `Yes, Tilspot allows you to set up recurring payments for many bills. This feature helps you stay on top of regular payments, so you never miss a due date.`,
+  },
+  {
+    title: "Which payment methods can I use?",
+    text: `We accept various payment methods, including major credit and debit cards. We are working to include more options in the future.`,
+  },
+  {
+    title: "How do I view my payment history?",
+    text: `You can easily access your full payment history in the “My Account” section. This allows you to keep track of past and upcoming payments, making financial management easier.`,
+  },
+  {
+    title: "Can I make a payment for someone else?",
+    text: `Yes, with our “Gift User” feature, you can cover a friend or family member’s bill as a thoughtful gesture. Choose the payment category, enter their details, and complete the transaction.`,
+  },
+  {
+    title: "What if there’s an issue with my payment?",
+    text: `If you experience any issues, contact our support team through the “Help” section on our website or reach out via email. We’re here to assist with any questions or concerns.`,
+  },
+  {
+    title: "Are payments processed instantly?",
+    text: `Most payments on Tilspot are processed immediately. However, some may take a short time depending on the service provider. You’ll receive a confirmation as soon as your payment is completed.`,
+  },
+  {
+    title: "Can I cancel a payment once it’s made?",
+    text: `Cancellations depend on the bill type and provider policies. Please review all details before confirming, as some payments cannot be reversed.`,
+  },
+  {
+    title: "What should I do if I forgot my password?",
+    text: `Click on the “Forgot Password?” link on the login page, and follow the instructions to reset it. If you need further assistance, contact our support team.`,
+  },
+  {
+    title: "How do I update my account information?",
+    text: `Go to the “My Account” section and click on “Edit Profile” to update your details or payment methods securely.`,
   },
 
 ];

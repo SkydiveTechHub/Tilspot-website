@@ -18,10 +18,11 @@ const About = () => {
                     <div className='lg:px-[2.5rem] space-y-4'>
                         <TitleText style='text-center lg:text-left md:text-[28px] text-left' text='WHO WE ARE!'/>
                         
+                            <p>We envision a future where managing payments is stress-free, transparent, and fully integrated into your daily routine. With a focus on continuous improvement and innovation, Tilspot aims to , , and </p>
                             <ul className='space-y-2'>
-                                <CntItem text='We connect our customers with the best.'/>
-                                <CntItem text='Advisor success customer launch party.'/>
-                                <CntItem text='Business-to-consumer long tail.'/>
+                                <CntItem text="Transform people's approach financial management"/>
+                                <CntItem text='Help people save time and reduce stress.'/>
+                                <CntItem text='Gain better control over their finances.'/>
                             </ul>
                             
                             

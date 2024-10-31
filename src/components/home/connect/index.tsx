@@ -33,12 +33,12 @@ const Connect = () => {
                 </div>
                 <div data-aos="fade-left" className='flex-1 md:px-8'>
                     <div className='lg:px-[2.5rem] space-y-4'>
-                        <TitleText style='text-center lg:text-left md:text-[28px] text-left' text='We connect our customers with the best, and help them keep up-and stay open.'/>
+                        <TitleText style='text-center lg:text-left md:text-[28px] text-left' text='We’re committed to offering a reliable, secure platform with:'/>
                         
                             <ul className='space-y-2'>
-                                <CntItem text='We connect our customers with the best.'/>
-                                <CntItem text='Advisor success customer launch party.'/>
-                                <CntItem text='Business-to-consumer long tail.'/>
+                                <CntItem text='Flexible payment options.'/>
+                                <CntItem text='Low transaction fees'/>
+                                <CntItem text='Features designed to enhance your finance.'/>
                             </ul>
                             
                             
@@ -58,20 +58,20 @@ const Connect = () => {
                     <img data-aos="fade-right" className='lg:hidden absolute h-[250px] right-0 top-[9rem]' src="/images/c4.png" alt="connect image" />
                 </div>
                 <div data-aos="fade-right" className='flex-1 '>
-                    <TitleText style='text-center md:text-left md:text-[28px] text-left lg:w-[80%]' text='We connect our customers with the best, and help them keep up-and stay open.'/>
+                    <TitleText style='text-center md:text-left md:text-[28px] text-left lg:w-[80%]' text='Customer-first service is at the heart of what we do.'/>
                     
                         <ul className='lg:w-[75%] space-y-3 mt-6'>
                             <CntBox>
                                 <PiLeafLight/>
-                                 <span>We connect our customers with the best.</span>
-                            </CntBox> 
-                            <CntBox>
-                                <TfiShine/>
-                                 <span>Advisor success customer launch party.</span>
+                                 <span>Simplified Bill Payment.</span>
                             </CntBox> 
                             <CntBox>
                                 <MdOutlineRemoveRedEye/>
-                                 <span>Business-to-consumer long tail.</span>
+                                 <span>Analytical Expense Tracker.</span>
+                            </CntBox> 
+                            <CntBox>
+                                <TfiShine/>
+                                 <span>Set up recurring payment.</span>
                             </CntBox> 
                         </ul>
 

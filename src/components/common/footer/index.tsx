@@ -11,7 +11,7 @@ const Footer = () => {
             <div className='spacey-y-4 col-span-2'>
 
                 <img className='bg-white rounded-lg p-2 w-[150px]' src="/images/Logo.png" alt="" />
-                <p className='text-[#f4f4f4] text-[14px] mt-4'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus at hic excepturi suscipit omnis magnam quaerat amet dolores neque nam!</p>
+                <p className='text-[#f4f4f4] text-[14px] mt-4 lg:w-[90%]'>At Tilspot, we’re dedicated to simplifying the way residents and businesses in Ireland manage their essential bill payments. Our mission is to provide a seamless, secure, and user-friendly platform that empowers users to stay on top of their financial commitments, from everyday bills to specialized services</p>
             
                 <div className='flex justify-center items-center lg:justify-normal gap-6 mt-4'>
                   {/* <Button variant='outline' text='Buy Template'/> */}
