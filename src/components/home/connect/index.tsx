@@ -28,8 +28,8 @@ const Connect = () => {
             <div className='flex flex-col lg:flex-row justify-between items-center space-y-6'>
                 <div className='relative flex-1'>
                     <img data-aos="fade-right" className='' src="/images/c1.png" alt="connect image" />
-                    <img data-aos="fade-up" className='hidden lg:block absolute top-[170px] h-[300px] right-5' src="/images/mobile.png" alt="connect image" />
-                    <img data-aos="fade-left" className='lg:hidden absolute h-[300px] top-5' src="/images/c2.png" alt="connect image" />
+                    <img data-aos="fade-up" className='hidden lg:block absolute top-[170px] h-[300px] right-5' src="/images/ts1.jpg" alt="connect image" />
+                    <img data-aos="fade-left" className='lg:hidden absolute h-[300px] top-5' src="/images/ts1.jpg" alt="connect image" />
                 </div>
                 <div data-aos="fade-left" className='flex-1 md:px-8'>
                     <div className='lg:px-[2.5rem] space-y-4'>
@@ -54,8 +54,8 @@ const Connect = () => {
             <div className='flex flex-col lg:flex-row-reverse justify-between items-center mt-[4rem] md:mt-[7rem] gap-8'>
                 <div className='relative flex-1'>
                     <img data-aos="fade-left" src="/images/c3.png" alt="connect image" />
-                    <img data-aos="fade-up" className='hidden lg:block absolute h-[300px] top-[250px] left-5' src="/images/mobile.png" alt="connect image" />
-                    <img data-aos="fade-right" className='lg:hidden absolute h-[250px] right-0 top-[9rem]' src="/images/c4.png" alt="connect image" />
+                    <img data-aos="fade-up" className='hidden lg:block absolute h-[300px] top-[250px] left-5' src="/images/ts2.jpg" alt="connect image" />
+                    <img data-aos="fade-right" className='lg:hidden absolute h-[250px] right-0 top-[9rem]' src="/images/ts2.jpg" alt="connect image" />
                 </div>
                 <div data-aos="fade-right" className='flex-1 '>
                     <TitleText style='text-center md:text-left md:text-[28px] text-left lg:w-[80%]' text='Customer-first service is at the heart of what we do.'/>

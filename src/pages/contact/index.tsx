@@ -8,7 +8,7 @@ const ContactPage = () => {
       <MainLayout>
         <PageBanner
             imgUrl='/images/bill1.jpg'
-            title='Contact Us'
+            title='FAQs'
             desc='Reach Our To Us, We are Here !'
           />
         <Faq/>

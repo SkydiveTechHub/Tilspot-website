@@ -16,10 +16,11 @@ const Home = () => {
         <Services count={8} show={true} headerShow/>
         <Connect/>
         {/* <Banner/> */}
+        <Testimonials/>        
         <Why/>
-        <Testimonials/>
+
         {/* <Blog/> */}
-        <EmailCard/>
+        {/* <EmailCard/> */}
       </MainLayout>
       
     </div>

@@ -118,17 +118,17 @@ export const footerData = [
     children: [
       {
         name:'Home',
-        linkUrl:'',
+        linkUrl:'/',
         flag:false
       },
       {
-        name:'Products',
-        linkUrl:'',
+        name:'About',
+        linkUrl:'/about',
         flag:false
       },
       {
         name:'Services',
-        linkUrl:'',
+        linkUrl:'/services',
         flag:false
       },
     ]
@@ -137,18 +137,18 @@ export const footerData = [
     title:'Company',
     children: [
       {
-        name:'Home',
-        linkUrl:'',
+        name:'contact',
+        linkUrl:'/',
         flag:false
       },
       {
-        name:'Career',
-        linkUrl:'',
+        name:'Privacy Policy',
+        linkUrl:'/about',
         flag:true
       },
       {
-        name:'Services',
-        linkUrl:'',
+        name:'Terms & Conditions',
+        linkUrl:'/services',
         flag:false
       },
     ]
@@ -157,20 +157,20 @@ export const footerData = [
     title:'Resources',
     children: [
       {
-        name:'Blog',
-        linkUrl:'',
-        flag:false
-      },
-      {
-        name:'Products',
-        linkUrl:'',
+        name:'FAQs',
+        linkUrl:'/contact',
         flag:false
       },
       {
         name:'Services',
-        linkUrl:'',
+        linkUrl:'/services',
         flag:false
       },
+      // {
+      //   name:'Services',
+      //   linkUrl:'',
+      //   flag:false
+      // },
     ]
   },
 ]
