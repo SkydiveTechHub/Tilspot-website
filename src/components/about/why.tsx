@@ -1,4 +1,4 @@
-import { Link } from "react-router-dom";
+
 import { reasonData } from "../../utils/data";
 import Container from "../ui/Container";
 import { TagText, TitleText } from "../ui/Typograph";

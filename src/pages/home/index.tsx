@@ -1,7 +1,6 @@
 import Hero from '../../components/home/hero'
 import MainLayout from '../../layout/MainLayout'
 import Services from '../../components/home/services'
-import EmailCard from '../../components/home/emailCard'
 import Connect from '../../components/home/connect'
 import Testimonials from '../../components/home/testimonial'
 import Partners from '../../components/home/partner'
