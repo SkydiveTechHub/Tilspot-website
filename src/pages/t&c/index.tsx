@@ -1,6 +1,4 @@
 import MainLayout from '../../layout/MainLayout'
-import Services from '../../components/home/services'
-import { TitleText } from '../../components/ui/Typograph'
 import PageBanner from '../../components/common/PageBanner'
 import { termsData } from '../../utils/data'
 

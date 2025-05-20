@@ -1,5 +1,4 @@
 import MainLayout from '../../layout/MainLayout'
-import { TitleText } from '../../components/ui/Typograph'
 import PageBanner from '../../components/common/PageBanner'
 import { privacyData } from '../../utils/data'
 
