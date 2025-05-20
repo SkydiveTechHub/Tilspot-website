@@ -4,6 +4,8 @@ import './App.css'
 import AOS from 'aos';
 import { Route, Routes } from 'react-router-dom';
 import Loading from './components/common/Loading';
+import PolicyPage from './pages/policy';
+import TermsPage from './pages/t&c';
 // Lazy load the pages
 const Home = lazy(() => import('./pages/home'));
 const AboutPage = lazy(() => import('./pages/about'));
@@ -26,6 +28,8 @@ function App() {
             <Route path='/about' element={<AboutPage/>}/>
             <Route path='/contact' element={<ContactPage/>}/>
             <Route path='/services' element={<ServicePage/>}/>
+            <Route path='/privacy-policy' element={<PolicyPage/>}/>
+            <Route path='/t&c' element={<TermsPage/>}/>
           </Routes>
     </Suspense>
 

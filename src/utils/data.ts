@@ -138,17 +138,17 @@ export const footerData = [
     children: [
       {
         name:'contact',
-        linkUrl:'/',
+        linkUrl:'/contact',
         flag:false
       },
       {
         name:'Privacy Policy',
-        linkUrl:'/about',
+        linkUrl:'/privacy-policy',
         flag:true
       },
       {
         name:'Terms & Conditions',
-        linkUrl:'/services',
+        linkUrl:'/t&c',
         flag:false
       },
     ]
@@ -302,4 +302,184 @@ export const reasonData = [
     header: "Super fast delivery",
     text: "No delay in our delivery process. Enjoy!",
   },
+];
+
+// terms.ts
+export const termsData = [
+  {
+    title: "1. Acceptance of Terms",
+    content: [
+      "By accessing or using Tilspot, you confirm that you are at least 18 years old or have the legal capacity to enter into these Terms.",
+      "You agree to use the App in compliance with these Terms and all applicable laws and regulations."
+    ],
+  },
+  {
+    title: "2. Services Offered",
+    content: [
+      "Tilspot enables users to perform transactions such as bill payments (airtime, internet, utilities, waste, leap cards, etc.), and manage expenses.",
+      "We act as a facilitator and are not liable for issues arising from third-party service providers integrated into the App."
+    ],
+  },
+  {
+    title: "3. Account Registration",
+    content: [
+      "Users must register an account to access the App’s features. You are responsible for maintaining the confidentiality of your login credentials.",
+      "You agree to provide accurate and up-to-date information during registration."
+    ],
+  },
+  {
+    title: "4. Fees and Payments",
+    content: [
+      "Transaction fees, including platform and processing fees, will be displayed before confirming a transaction.",
+      "All payments are final, except as required by law or under our refund policy.",
+      "You are responsible for ensuring that sufficient funds are available to complete transactions."
+    ],
+  },
+  {
+    title: "5. User Conduct",
+    content: [
+      "You agree not to:",
+      "Use the App for illegal or fraudulent purposes.",
+      "Interfere with the operation of the App or its services.",
+      "Submit false, misleading, or harmful information.",
+      "We reserve the right to suspend or terminate accounts that violate these Terms."
+    ],
+  },
+  {
+    title: "6. Third-Party Services",
+    content: [
+      "The App integrates with third-party service providers. We are not responsible for their performance or any damages arising from their services.",
+      "You agree to abide by the terms and conditions of third-party services accessed through Tilspot."
+    ],
+  },
+  {
+    title: "7. Privacy",
+    content: [
+      "Your privacy is important to us. Please refer to our Privacy Policy for details on how we collect, use, and protect your personal information."
+    ],
+  },
+  {
+    title: "8. Disclaimers",
+    content: [
+      'The App and its services are provided "as is" without warranties of any kind, express or implied.',
+      "We do not guarantee uninterrupted or error-free access to the App."
+    ],
+  },
+  {
+    title: "9. Limitation of Liability",
+    content: [
+      "To the maximum extent permitted by law, we shall not be liable for any direct, indirect, incidental, or consequential damages arising from your use of the App."
+    ],
+  },
+  {
+    title: "10. Termination",
+    content: [
+      "We reserve the right to terminate or suspend your access to the App at any time for any reason, including violation of these Terms."
+    ],
+  },
+  {
+    title: "11. Modifications",
+    content: [
+      "We may modify these Terms at any time. Changes will be communicated via the App or email and will take effect immediately upon posting."
+    ],
+  },
+  {
+    title: "12. Governing Law",
+    content: [
+      "These Terms are governed by the laws of Ireland. Any disputes will be resolved in Irish courts."
+    ],
+  },
+  {
+    title: "13. Contact Us",
+    content: [
+      "For questions about these Terms, please contact us at help@Tilspot.com."
+    ],
+  }
+];
+
+
+// privacy.ts
+export const privacyData = [
+  {
+    title: "Introduction",
+    content: [
+      "At Techeir IT Services Limited, we are committed to protecting your privacy. This Privacy Policy explains how we collect, use, and safeguard your personal information when you use Tilspot (\"the App\")."
+    ]
+  },
+  {
+    title: "1. Information We Collect",
+    content: [
+      "Personal Information: Name, email address, phone number, billing information, and other details provided during registration.",
+      "Usage Data: Details about how you use the App, including transaction history and preferences.",
+      "Device Information: IP address, operating system, browser type, and device identifiers."
+    ]
+  },
+  {
+    title: "2. How We Use Your Information",
+    content: [
+      "To provide and manage the App’s services.",
+      "To process payments and transactions.",
+      "To communicate with you regarding your account or transactions.",
+      "To improve the App and its features.",
+      "To comply with legal obligations."
+    ]
+  },
+  {
+    title: "3. How We Share Your Information",
+    content: [
+      "Third-Party Service Providers: We may share your information with third parties to process transactions or provide services (e.g., payment gateways, billers).",
+      "Legal Requirements: We may disclose information to comply with legal obligations or protect our rights."
+    ]
+  },
+  {
+    title: "4. Data Security",
+    content: [
+      "We use industry-standard measures to protect your personal information.",
+      "Despite these measures, no system can guarantee absolute security."
+    ]
+  },
+  {
+    title: "5. Your Rights",
+    content: [
+      "Access, update, or delete your personal information.",
+      "Opt-out of marketing communications.",
+      "Withdraw consent for data processing where applicable."
+    ]
+  },
+  {
+    title: "6. Cookies and Tracking",
+    content: [
+      "We use cookies to improve your experience on the App. You can manage cookies through your browser settings."
+    ]
+  },
+  {
+    title: "7. Data Retention",
+    content: [
+      "We retain your information as long as your account is active or as needed to provide services and comply with legal obligations."
+    ]
+  },
+  {
+    title: "8. Third-Party Links",
+    content: [
+      "The App may include links to third-party websites or services. We are not responsible for their privacy practices."
+    ]
+  },
+  {
+    title: "9. International Data Transfers",
+    content: [
+      "Your information may be stored and processed outside your country of residence. We ensure such transfers comply with legal requirements."
+    ]
+  },
+  {
+    title: "10. Updates to This Policy",
+    content: [
+      "We may update this Privacy Policy from time to time. Changes will be communicated via the App or email."
+    ]
+  },
+  {
+    title: "11. Contact Us",
+    content: [
+      "If you have questions about this Privacy Policy, please contact us at help@Tilspot.com."
+    ]
+  }
 ];
