@@ -22,7 +22,7 @@ function App() {
 
   return (
     <>
-    <Suspense fallback={<Loading />}>
+{/*     <Suspense fallback={<Loading />}> */}
           <Routes>
             <Route path='/' element={<Home/>}/>
             <Route path='/about' element={<AboutPage/>}/>
@@ -31,7 +31,7 @@ function App() {
             <Route path='/privacy-policy' element={<PolicyPage/>}/>
             <Route path='/t&c' element={<TermsPage/>}/>
           </Routes>
-    </Suspense>
+{/*     </Suspense> */}
 
     </>
   )
