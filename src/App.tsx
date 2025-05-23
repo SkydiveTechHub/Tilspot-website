@@ -1,16 +1,20 @@
-import { lazy, Suspense, useEffect } from 'react'
+import {useEffect } from 'react'
 import './App.css'
 // import Home from './pages/home'
 import AOS from 'aos';
 import { Route, Routes } from 'react-router-dom';
-import Loading from './components/common/Loading';
+// import Loading from './components/common/Loading';
 import PolicyPage from './pages/policy';
 import TermsPage from './pages/t&c';
+import Home from './pages/home';
+import AboutPage from './pages/about';
+import ContactPage from './pages/contact';
+import ServicePage from './pages/services';
 // Lazy load the pages
-const Home = lazy(() => import('./pages/home'));
-const AboutPage = lazy(() => import('./pages/about'));
-const ContactPage = lazy(() => import('./pages/contact'));
-const ServicePage = lazy(() => import('./pages/services'));
+// const Home = lazy(() => import('./pages/home'));
+// const AboutPage = lazy(() => import('./pages/about'));
+// const ContactPage = lazy(() => import('./pages/contact'));
+// const ServicePage = lazy(() => import('./pages/services'));
 
 function App() {
   useEffect(() => {
@@ -22,7 +26,7 @@ function App() {
 
   return (
     <>
-    <Suspense fallback={<Loading />}>
+    {/* <Suspense fallback={<Loading />}> */}
           <Routes>
             <Route path='/' element={<Home/>}/>
             <Route path='/about' element={<AboutPage/>}/>
@@ -31,10 +35,9 @@ function App() {
             <Route path='/privacy-policy' element={<PolicyPage/>}/>
             <Route path='/t&c' element={<TermsPage/>}/>
           </Routes>
-    </Suspense>
+    {/* </Suspense> */}
 
     </>
   )
 }
-
 export default App
